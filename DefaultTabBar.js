@@ -26,7 +26,7 @@ const DefaultTabBar = React.createClass({
     const textStyle = this.props.textStyle || {};
 
     return <Button
-      key={name}
+      key={page}
       accessible={true}
       accessibilityLabel={name}
       accessibilityTraits='button'
